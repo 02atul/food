@@ -1,0 +1,11 @@
+#app-download p {
+    font-size:max(3vw,20px);
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+}
+#app-download-platform{
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;
+}

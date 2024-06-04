@@ -1,0 +1,8 @@
+#footer{
+    color:#d9d9d9;
+ 
+    padding:20px 8vw;
+}
+#footer-content{
+    grid-template-columns:2fr 1fr 1fr;
+}

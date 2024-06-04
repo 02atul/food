@@ -1,0 +1,49 @@
+#header{
+height:34vw;
+margin:30px;
+margin:auto;
+background:url('./header_img.png') no-repeat;
+background-size:contain;
+
+}
+#header {
+    margin: 35px; /* Applies 10px margin on all four sides */
+}
+
+#header {
+    margin: 35px 50px; /* Applies 10px top and bottom margin, 20px right and left margin */
+}
+
+#header {
+    margin: 35px 50px 65px; /* Applies 10px top margin, 20px right and left margin, 30px bottom margin */
+}
+
+#header {
+    margin:35px 50px 65px 110px; /* Applies 10px top, 20px right, 30px bottom, 40px left margin */
+}
+#header-contents{
+    gap: 1.5vw;
+    max-width:50%;
+    bottom:10%;
+    left:6vw;
+    align-items:start;
+    animation: fadeIn 3s;
+}
+#header-contents h2{
+    font-weight:500;
+    color:white;
+    font-size: max(4.5vw,22px);
+}
+#header-contents p{
+    color:white;
+    font-size:1.5vw
+}
+#header-contents button {
+    border:none;
+    color:#747474;
+    font-weight:500;
+    padding : 1vw 2.3vw;
+    background-color:white;
+    font-size:max(1vw,13px);
+    border-radius:50px;
+}
